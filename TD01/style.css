@@ -1,0 +1,57 @@
+div#title {
+	display: flex;
+	align-items: center;
+	margin: 0px 10px;
+}
+
+div#title:hover * {
+	margin: 0px 25px;
+}
+
+div#title * {
+	margin: 0px 10px;
+	transition: margin .2s ease-in;
+}
+
+div#title div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+a {
+	font-weight: bold;
+	text-decoration: none;
+	color: #ff50ff;
+	transition: color .25s ease-out;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	width: fit-content;
+}
+
+a::after {
+	content: "";
+	background-color: red;
+	width: 100%;
+	height: 2px;
+}
+
+a:hover {
+	color: #ff80ff;
+}
+
+h2 {
+	color: blue;
+}
+
+p {
+	transition: color .5s ease-in-out;
+	color: red;
+}
+
+p:hover {
+	color: blue;
+}
