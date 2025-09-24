@@ -1,0 +1,58 @@
+/* A COMPLETER */
+/* Modification style arme */
+ul > li.detournee {
+  text-decoration: underline;
+}
+
+ul > li.contandante {
+  font-weight: bold;
+}
+
+/* Texte rouge */
+article > h1,
+section > h2,
+section > h3 {
+  color: red;
+}
+
+/* Suppr puces */
+aside > nav > ul > li > ul {
+  list-style: none;
+}
+
+/* Couleur verte */
+section#armes > ul > li {
+  color: green;
+}
+
+/* Couleur bleu */
+section#armes > ul > li > ul {
+  color: blue;
+}
+
+/* Hauteur image 1em */
+a > img {
+  height: 1em;
+}
+
+/* Image boite 20vw */
+aside > img {
+  width: 20dvw;
+}
+
+aside > nav {
+  position: sticky;
+  top: 25px;
+}
+
+/* #annexes > section:last-child > ul {
+  list-style: none;
+} */
+
+/* section#annexes > :not(section#armes) > ul {
+  list-style: none;
+} */
+
+section#annexes > section:last-of-type > ul {
+  list-style: none;
+}
