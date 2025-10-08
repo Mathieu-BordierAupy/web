@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section * {
+  margin: 5px;
+}
+
+header,
+footer {
+  flex: 1 99%;
+  margin: 5px;
+}
+
+section {
+  flex: 1 99%;
+  display: flex;
+}
+
+section > nav,
+section > aside {
+  flex: 1 15%;
+}
+
+section > article {
+  flex: 1 60%;
+}

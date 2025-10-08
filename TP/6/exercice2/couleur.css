@@ -1,0 +1,24 @@
+body {
+  font-size: 1.5em;
+  background-color: rgb(233, 233, 233);
+}
+
+header,
+footer {
+  background-color: cornflowerblue;
+  border: 1px solid grey;
+  height: 15dvh;
+  text-align: center;
+}
+
+nav,
+aside {
+  background-color: pink;
+  height: 60dvh;
+  border: 1px solid grey;
+}
+
+article {
+  border: 1px solid grey;
+  background-color: antiquewhite;
+}

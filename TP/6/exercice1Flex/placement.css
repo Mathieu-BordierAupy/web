@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+body > * {
+  margin: 5px;
+}
+
+section {
+  flex: 1 39%;
+}
+
+article {
+  flex-basis: 59%;
+  flex-grow: 1;
+}
+
+header,
+#rose {
+  flex-basis: 99%;
+  flex-grow: 1;
+}

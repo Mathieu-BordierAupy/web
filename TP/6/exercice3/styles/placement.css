@@ -1,0 +1,44 @@
+
+
+header > nav {
+  display: flex;
+  text-align: center;
+}
+
+header > nav > ul {
+  display: flex;
+  flex-direction: row;
+}
+
+header > nav > ul > li {
+  flex: 1 8dvw;
+}
+
+main {
+  display: flex;
+}
+
+main > section, main > aside {
+    margin: 10px;
+}
+
+main > section {
+  flex: 2 95dvw;
+}
+
+main > aside {
+  flex: 1 35dvw;
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article > h1 {
+    flex: 1 100%;
+}
+
+article > p {
+    flex: 2 60%;
+}
